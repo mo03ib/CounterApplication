@@ -10,9 +10,4 @@ public class FancyCounter extends Counter {
     public void reset() {
         value = 17;
     }
-    
-    @Override
-    public String toString() {
-        return "FancyCounter value = " + this.value;
-    }
 }
